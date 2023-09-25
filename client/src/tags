@@ -1,0 +1,451 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	C:/Users/theca/cryptopilot/client/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/80ee839/
+1	components/BotAttributeComponent.js	/^    <Grid container spacing={1}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710201
+1	components/BotsComponent.js	/^    <Grid container spacing={1}>$/;"	M	class:BotsComponent.AnonymousClass2e812bf00101
+1	components/DashboardComponent.js	/^      <Grid container spacing={1}>$/;"	M	class:DashboardComponent.AnonymousClassde26c0600101
+1	components/PortfolioComponent.js	/^    <Grid container spacing={1}>$/;"	M	class:PortfolioComponent.AnonymousClassf062dc360201
+100	components/InvestmentPieChart.js	/^          outerRadius={100}$/;"	M	class:outerRadius
+12	components/BotAttributeComponent.js	/^                  <Grid item xs={12} sm={6}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710401
+12	components/BotAttributeComponent.js	/^                  <Grid item xs={12} sm={6}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710d01
+2	components/BotAttributeComponent.js	/^                    <Box mb={2}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710f01
+2	components/BotAttributeComponent.js	/^                    <Box mb={2}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711501
+2	views/Bots.js	/^          <Grid container spacing={2}>$/;"	M	class:AnonymousClass2cf818850101
+20	components/ProfitLossBarChart.js	/^      barSize={20}$/;"	M	class:barSize
+200	components/InvestmentPieChart.js	/^          cx={200}$/;"	M	class:cx
+200	components/InvestmentPieChart.js	/^          cy={200}$/;"	M	class:cy
+3	components/BotAttributeComponent.js	/^                <Grid container spacing={3}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710301
+3	views/Dashboard.js	/^      <Grid container spacing={3}>$/;"	M	class:Dashboard.AnonymousClassa802bbf50101
+3	views/Portfolio.js	/^      <Grid container spacing={3}>$/;"	M	class:PortfolioView.AnonymousClass7a5aff0b0101
+30	components/TradesAreaChart.js	/^        height={30} $/;"	M	class:height
+300	components/InvestmentBarChart.js	/^      height={300}$/;"	M	class:height
+300	components/TotalInvestmentBarChart.js	/^      height={300}$/;"	M	class:height
+400	components/InvestmentPieChart.js	/^      <PieChart width={400} height={400}>$/;"	M	class:AnonymousClass8a9dac020101
+500	components/InvestmentBarChart.js	/^      width={500}$/;"	M	class:width
+6	components/BotAttributeComponent.js	/^                  <Grid item xs={12} sm={6}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710501
+6	components/BotAttributeComponent.js	/^                  <Grid item xs={12} sm={6}>$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710e01
+680	components/TradesAreaChart.js	/^    <AreaChart width={680} height={400} data={data}>$/;"	M	class:AnonymousClass2489a9730b01
+800	components/TotalInvestmentBarChart.js	/^      width={800}$/;"	M	class:width
+Accounts	views/Accounts.js	/^const Accounts = () => {$/;"	C
+AnonymousClass1414345f0101	components/Navbar.js	/^const NavbarStyles = styled(Drawer)({$/;"	c
+AnonymousClass1414345f0201	components/Navbar.js	/^const DrawerPaper = styled('div')({$/;"	c
+AnonymousClass2489a9730101	components/TradesAreaChart.js	/^  { date: '2023-06-01', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730201	components/TradesAreaChart.js	/^  { date: '2023-06-02', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730301	components/TradesAreaChart.js	/^  { date: '2023-06-03', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730401	components/TradesAreaChart.js	/^  { date: '2023-06-04', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730501	components/TradesAreaChart.js	/^  { date: '2023-06-05', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730601	components/TradesAreaChart.js	/^  { date: '2023-06-06', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730701	components/TradesAreaChart.js	/^  { date: '2023-06-07', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730801	components/TradesAreaChart.js	/^  { date: '2023-06-08', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730901	components/TradesAreaChart.js	/^  { date: '2023-06-09', trades: randomTrades() },$/;"	c
+AnonymousClass2489a9730a01	components/TradesAreaChart.js	/^  { date: '2023-06-10', trades: randomTrades() },$/;"	c
+AnonymousClass5bd588900101	components/TradesTable.js	/^    { trade: 'Trade 1', price: 4000, date: '2023-06-28', time: '10:30 AM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900201	components/TradesTable.js	/^    { trade: 'Trade 2', price: 3000, date: '2023-06-27', time: '02:15 PM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900301	components/TradesTable.js	/^    { trade: 'Trade 3', price: 2000, date: '2023-06-26', time: '09:45 AM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900401	components/TradesTable.js	/^    { trade: 'Trade 4', price: 2780, date: '2023-06-25', time: '04:20 PM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900501	components/TradesTable.js	/^    { trade: 'Trade 5', price: 1890, date: '2023-06-24', time: '11:10 AM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900601	components/TradesTable.js	/^    { trade: 'Trade 6', price: 3450, date: '2023-06-23', time: '01:30 PM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900701	components/TradesTable.js	/^    { trade: 'Trade 7', price: 2670, date: '2023-06-22', time: '08:55 AM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900801	components/TradesTable.js	/^    { trade: 'Trade 8', price: 3890, date: '2023-06-21', time: '03:45 PM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900901	components/TradesTable.js	/^    { trade: 'Trade 9', price: 2450, date: '2023-06-20', time: '10:20 AM', currencyPair: 'BTC\/U/;"	c
+AnonymousClass5bd588900a01	components/TradesTable.js	/^    { trade: 'Trade 10', price: 3150, date: '2023-06-19', time: '05:00 PM', currencyPair: 'BTC\//;"	c
+AnonymousClass6d4ff8610101	components/ProfitLossBarChart.js	/^  { name: 'January', uv: 4000 },$/;"	c
+AnonymousClass6d4ff8610201	components/ProfitLossBarChart.js	/^  { name: 'February', uv: 3000 },$/;"	c
+AnonymousClass6d4ff8610301	components/ProfitLossBarChart.js	/^  { name: 'March', uv: 3500 },$/;"	c
+AnonymousClass6d4ff8610401	components/ProfitLossBarChart.js	/^  { name: 'April', uv: 4000 },$/;"	c
+AnonymousClass6d4ff8610501	components/ProfitLossBarChart.js	/^  { name: 'May', uv: 4500 },$/;"	c
+AnonymousClass6d4ff8610601	components/ProfitLossBarChart.js	/^  { name: 'June', uv: 5000 },$/;"	c
+AnonymousClass6d4ff8610701	components/ProfitLossBarChart.js	/^  { name: 'July', uv: 5500 },$/;"	c
+AnonymousClass6d4ff8610801	components/ProfitLossBarChart.js	/^  { name: 'August', uv: 6000 },$/;"	c
+AnonymousClass6d4ff8610901	components/ProfitLossBarChart.js	/^  { name: 'September', uv: 6500 },$/;"	c
+AnonymousClass6d4ff8610a01	components/ProfitLossBarChart.js	/^  { name: 'October', uv: 7000 },$/;"	c
+AnonymousClass6d4ff8610b01	components/ProfitLossBarChart.js	/^  { name: 'November', uv: 7500 },$/;"	c
+AnonymousClass6d4ff8610c01	components/ProfitLossBarChart.js	/^  { name: 'December', uv: 8000 },$/;"	c
+AnonymousClass850d2b820101	components/TradesLineChart.js	/^  { name: 'Trade 1', uv: 4000 },$/;"	c
+AnonymousClass850d2b820201	components/TradesLineChart.js	/^  { name: 'Trade 2', uv: 3000 },$/;"	c
+AnonymousClass850d2b820301	components/TradesLineChart.js	/^  { name: 'Trade 3', uv: 2000 },$/;"	c
+AnonymousClass850d2b820401	components/TradesLineChart.js	/^  { name: 'Trade 4', uv: 2780 },$/;"	c
+AnonymousClass850d2b820501	components/TradesLineChart.js	/^  { name: 'Trade 5', uv: 1890 },$/;"	c
+AnonymousClass850d2b820601	components/TradesLineChart.js	/^  { name: 'Trade 6', uv: 3450 },$/;"	c
+AnonymousClass850d2b820701	components/TradesLineChart.js	/^  { name: 'Trade 7', uv: 2670 },$/;"	c
+AnonymousClass850d2b820801	components/TradesLineChart.js	/^  { name: 'Trade 8', uv: 3890 },$/;"	c
+AnonymousClass850d2b820901	components/TradesLineChart.js	/^  { name: 'Trade 9', uv: 2450 },$/;"	c
+AnonymousClass850d2b820a01	components/TradesLineChart.js	/^  { name: 'Trade 10', uv: 3150 },$/;"	c
+AnonymousClassa7a74a510101	App.js	/^const theme = createTheme({$/;"	c
+AnonymousClassa7a74a510201	App.js	/^const Content = styled('div')({$/;"	c
+AnonymousClassbbd895710901	components/BotAttributeComponent.js	/^                        {key === 'Strategy' ? ($/;"	c	class:BotAttributeComponent.AnonymousClassbbd895710601
+AnonymousClassbd9557590101	components/BotListComponent.js	/^    { botName: "BTC\/USD_Kraken_KISS", active: botStatus },$/;"	c	class:BotListComponent
+AnonymousClassbd9557590201	components/BotListComponent.js	/^    { botName: "BTC\/ETH_Binance_TOKPIG", active: botStatus },$/;"	c	class:BotListComponent
+AnonymousClassbd9557590301	components/BotListComponent.js	/^    { botName: "BTC\/USD_Kraken_TOKPIG", active: botStatus },$/;"	c	class:BotListComponent
+AnonymousClassbd9557590401	components/BotListComponent.js	/^    { botName: "BTC\/ETH_Binance_KISS", active: botStatus },$/;"	c	class:BotListComponent
+AnonymousClassd24b5f0e0101	components/TopBanner.js	/^const StyledAppBar = styled(AppBar)({$/;"	c
+AnonymousClassd24b5f0e0201	components/TopBanner.js	/^const StyledLink = styled(Link)({$/;"	c
+AnonymousClassd24b5f0e0301	components/TopBanner.js	/^const StyledButton = styled(Button)({$/;"	c
+AnonymousClassfb41295d0101	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	c
+AnonymousClassfb41295d0201	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	c
+AnonymousClassfb41295d0301	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	c
+AnonymousClassfb41295d0401	data/mockData.js	/^    {name: 'Jan', type: 'BTC', Profit: 4000, Loss: 2400},$/;"	c
+AnonymousClassfb41295d0501	data/mockData.js	/^    {name: 'Feb', type: 'BTC', Profit: 3000, Loss: 1398},$/;"	c
+AnonymousClassfb41295d0601	data/mockData.js	/^    {name: 'Mar', type: 'BTC', Profit: 2000, Loss: 9800},$/;"	c
+AnonymousClassfb41295d0701	data/mockData.js	/^    {name: 'Jan', type: 'ETH', Profit: 4000, Loss: 2400},$/;"	c
+AnonymousClassfb41295d0801	data/mockData.js	/^    {name: 'Feb', type: 'ETH', Profit: 2500, Loss: 1500},$/;"	c
+AnonymousClassfb41295d0901	data/mockData.js	/^    {name: 'Mar', type: 'ETH', Profit: 3500, Loss: 2000},$/;"	c
+AnonymousClassfb41295d0a01	data/mockData.js	/^    {name: 'Jan', type: 'ADA', Profit: 5000, Loss: 2500},$/;"	c
+AnonymousClassfb41295d0b01	data/mockData.js	/^    {name: 'Feb', type: 'ADA', Profit: 4500, Loss: 2000},$/;"	c
+AnonymousClassfb41295d0c01	data/mockData.js	/^    {name: 'Mar', type: 'ADA', Profit: 4000, Loss: 1500},$/;"	c
+AnonymousClassfb41295d0d01	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d0e01	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d0f01	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1001	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1101	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1201	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1301	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1401	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1501	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1601	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1701	data/mockData.js	/^    {$/;"	c
+AnonymousClassfb41295d1801	data/mockData.js	/^    {$/;"	c
+App	App.js	/^function App() {$/;"	f
+Backtesting	views/Backtesting.js	/^const Backtesting = () => {$/;"	C
+BotAttributeComponent	components/BotAttributeComponent.js	/^function BotAttributeComponent({ bot }) {$/;"	f
+BotListComponent	components/BotListComponent.js	/^function BotListComponent(props) {$/;"	f
+Bots	views/Bots.js	/^const Bots = () => {$/;"	C
+BotsComponent	components/BotsComponent.js	/^function BotsComponent() {$/;"	f
+COLORS	components/InvestmentPieChart.js	/^            data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.l/;"	M	class:AnonymousClass8a9dac020301
+COLORS	components/InvestmentPieChart.js	/^const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8'];$/;"	C
+Content	App.js	/^const Content = styled('div')({$/;"	C
+Currency Pair	components/BotAttributeComponent.js	/^        'Currency Pair': 'BTC\/USD',$/;"	p	class:BotAttributeComponent.botObjext
+Current Balance	components/BotAttributeComponent.js	/^        'Current Balance': 8700,$/;"	p	class:BotAttributeComponent.botObjext
+Current Position	components/BotAttributeComponent.js	/^        'Current Position': 'Sell'$/;"	p	class:BotAttributeComponent.botObjext
+Dashboard	views/Dashboard.js	/^function Dashboard() {$/;"	f
+DashboardComponent	components/DashboardComponent.js	/^function DashboardComponent() {$/;"	f
+Date Started	components/BotAttributeComponent.js	/^        'Date Started': '5\/05\/2026',$/;"	p	class:BotAttributeComponent.botObjext
+Days Up	components/BotAttributeComponent.js	/^        'Days Up': 32,$/;"	p	class:BotAttributeComponent.botObjext
+DrawerPaper	components/Navbar.js	/^const DrawerPaper = styled('div')({$/;"	C
+Initial Deposit	components/BotAttributeComponent.js	/^        'Initial Deposit': 8500,$/;"	p	class:BotAttributeComponent.botObjext
+InvestmentBarChart	components/InvestmentBarChart.js	/^const InvestmentBarChart = ({ data }) => {$/;"	C
+InvestmentPieChart	components/InvestmentPieChart.js	/^const InvestmentPieChart = ({ data }) => {$/;"	C
+Link	components/Navbar.js	/^          <ListItem button key={text} component={Link} to={`\/${text.toLowerCase()}`}>$/;"	M	class:AnonymousClass1414345f0401
+Loss	data/mockData.js	/^    {name: 'Feb', type: 'ADA', Profit: 4500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0b01
+Loss	data/mockData.js	/^    {name: 'Feb', type: 'BTC', Profit: 3000, Loss: 1398},$/;"	p	class:AnonymousClassfb41295d0501
+Loss	data/mockData.js	/^    {name: 'Feb', type: 'ETH', Profit: 2500, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0801
+Loss	data/mockData.js	/^    {name: 'Jan', type: 'ADA', Profit: 5000, Loss: 2500},$/;"	p	class:AnonymousClassfb41295d0a01
+Loss	data/mockData.js	/^    {name: 'Jan', type: 'BTC', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0401
+Loss	data/mockData.js	/^    {name: 'Jan', type: 'ETH', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0701
+Loss	data/mockData.js	/^    {name: 'Mar', type: 'ADA', Profit: 4000, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0c01
+Loss	data/mockData.js	/^    {name: 'Mar', type: 'BTC', Profit: 2000, Loss: 9800},$/;"	p	class:AnonymousClassfb41295d0601
+Loss	data/mockData.js	/^    {name: 'Mar', type: 'ETH', Profit: 3500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0901
+Name	components/BotAttributeComponent.js	/^        Name: bot.botName, $/;"	p	class:BotAttributeComponent.botObjext
+Navbar	components/Navbar.js	/^const Navbar = () => {$/;"	C
+NavbarStyles	components/Navbar.js	/^const NavbarStyles = styled(Drawer)({$/;"	C
+Paper	components/BotListComponent.js	/^      <TableContainer component={Paper} style={{ width: '100%' }}>$/;"	M	class:BotListComponent.AnonymousClassbd9557590501
+Paper	components/TradesTable.js	/^    <TableContainer component={Paper} style={{width: '100%'}}>$/;"	M	class:AnonymousClass5bd588900b01
+PortfolioComponent	components/PortfolioComponent.js	/^function PortfolioComponent({ pieData, barData, totalBarData }) {$/;"	f
+PortfolioView	views/Portfolio.js	/^function PortfolioView() {$/;"	f
+Profit	data/mockData.js	/^    {name: 'Feb', type: 'ADA', Profit: 4500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0b01
+Profit	data/mockData.js	/^    {name: 'Feb', type: 'BTC', Profit: 3000, Loss: 1398},$/;"	p	class:AnonymousClassfb41295d0501
+Profit	data/mockData.js	/^    {name: 'Feb', type: 'ETH', Profit: 2500, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0801
+Profit	data/mockData.js	/^    {name: 'Jan', type: 'ADA', Profit: 5000, Loss: 2500},$/;"	p	class:AnonymousClassfb41295d0a01
+Profit	data/mockData.js	/^    {name: 'Jan', type: 'BTC', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0401
+Profit	data/mockData.js	/^    {name: 'Jan', type: 'ETH', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0701
+Profit	data/mockData.js	/^    {name: 'Mar', type: 'ADA', Profit: 4000, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0c01
+Profit	data/mockData.js	/^    {name: 'Mar', type: 'BTC', Profit: 2000, Loss: 9800},$/;"	p	class:AnonymousClassfb41295d0601
+Profit	data/mockData.js	/^    {name: 'Mar', type: 'ETH', Profit: 3500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0901
+Profit/Loss to Date	components/BotAttributeComponent.js	/^        'Profit\/Loss to Date': 200,$/;"	p	class:BotAttributeComponent.botObjext
+ProfitLossBarChart	components/ProfitLossBarChart.js	/^const ProfitLossBarChart = () => {$/;"	C
+Status	components/BotAttributeComponent.js	/^        Status: 'Active', $/;"	p	class:BotAttributeComponent.botObjext
+Strategy	components/BotAttributeComponent.js	/^        Strategy: 'KISS',$/;"	p	class:BotAttributeComponent.botObjext
+StyledAppBar	components/TopBanner.js	/^const StyledAppBar = styled(AppBar)({$/;"	C
+StyledButton	components/TopBanner.js	/^const StyledButton = styled(Button)({$/;"	C
+StyledLink	components/TopBanner.js	/^const StyledLink = styled(Link)({$/;"	C
+TopBanner	components/TopBanner.js	/^const TopBanner = () => {$/;"	C
+Total Buys	components/BotAttributeComponent.js	/^        'Total Buys': 25,$/;"	p	class:BotAttributeComponent.botObjext
+Total Sells	components/BotAttributeComponent.js	/^        'Total Sells': 24,$/;"	p	class:BotAttributeComponent.botObjext
+Total Trades	components/BotAttributeComponent.js	/^        'Total Trades': 50,$/;"	p	class:BotAttributeComponent.botObjext
+TotalInvestmentBarChart	components/TotalInvestmentBarChart.js	/^const TotalInvestmentBarChart = ({ data }) => {$/;"	C
+TradesAreaChart	components/TradesAreaChart.js	/^const TradesAreaChart = () => {$/;"	C
+TradesLineChart	components/TradesLineChart.js	/^const TradesLineChart = () => {$/;"	C
+TradesTable	components/TradesTable.js	/^const TradesTable = () => {$/;"	C
+Trading Exchange	components/BotAttributeComponent.js	/^        'Trading Exchange': 'Kraken',$/;"	p	class:BotAttributeComponent.botObjext
+active	components/BotListComponent.js	/^    { botName: "BTC\/ETH_Binance_KISS", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590401
+active	components/BotListComponent.js	/^    { botName: "BTC\/ETH_Binance_TOKPIG", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590201
+active	components/BotListComponent.js	/^    { botName: "BTC\/USD_Kraken_KISS", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590101
+active	components/BotListComponent.js	/^    { botName: "BTC\/USD_Kraken_TOKPIG", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590301
+attributes	components/BotAttributeComponent.js	/^                              {key}: {attributes[key]} <InfoIcon fontSize="extra small" \/> $/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710601.AnonymousClassbbd895710901.AnonymousClassbbd895710b01
+attributes	components/BotAttributeComponent.js	/^                          {key}: {attributes[key]}$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711001.AnonymousClassbbd895711401
+attributes	components/BotAttributeComponent.js	/^                          {key}: {attributes[key]}$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711601.AnonymousClassbbd895711a01
+background	App.js	/^    background: '#fff',$/;"	p	class:AnonymousClassa7a74a510201
+background	components/Navbar.js	/^  background: '#fff',$/;"	p	class:AnonymousClass1414345f0201
+background	components/TopBanner.js	/^    background: '#FF5700',$/;"	p	class:AnonymousClassd24b5f0e0101
+barData	components/PortfolioComponent.js	/^  barData: PropTypes.arrayOf(PropTypes.object),$/;"	p	class:PortfolioComponent.propTypes
+barData	data/mockData.js	/^const barData = [$/;"	C
+barData	views/Portfolio.js	/^            barData={barData} $/;"	M	class:PortfolioView.barData
+body	App.css	/^body {$/;"	s
+body	index.css	/^body {$/;"	s
+bot	components/BotAttributeComponent.js	/^function BotAttributeComponent({ bot }) {$/;"	M	class:AnonymousClassbbd895710101
+bot	components/BotListComponent.js	/^                  {bot.botName}$/;"	M	class:AnonymousClassbd9557590801
+bot	components/BotListComponent.js	/^                <TableCell align="right">{bot.active}<\/TableCell>$/;"	M	class:AnonymousClassbd9557590901
+bot	components/BotListComponent.js	/^              <TableRow key={bot.botName} onClick={() => props.onSelectBot(bot)}>$/;"	M	class:AnonymousClassbd9557590601
+botName	components/BotListComponent.js	/^    { botName: "BTC\/ETH_Binance_KISS", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590401
+botName	components/BotListComponent.js	/^    { botName: "BTC\/ETH_Binance_TOKPIG", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590201
+botName	components/BotListComponent.js	/^    { botName: "BTC\/USD_Kraken_KISS", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590101
+botName	components/BotListComponent.js	/^    { botName: "BTC\/USD_Kraken_TOKPIG", active: botStatus },$/;"	p	class:BotListComponent.AnonymousClassbd9557590301
+botObjext	components/BotAttributeComponent.js	/^  const botObjext = { $/;"	c	class:BotAttributeComponent
+botStatus	components/BotListComponent.js	/^const botStatus = "Active";$/;"	C
+brushStyle	components/TradesAreaChart.js	/^  <div css={brushStyle}>$/;"	M	class:AnonymousClass2489a9730c01
+brushStyle	components/TradesAreaChart.js	/^const brushStyle = css`$/;"	C
+cell-${index}	components/InvestmentPieChart.js	/^            data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.l/;"	M	class:AnonymousClass8a9dac020201
+cell-${index}	components/TotalInvestmentBarChart.js	/^            <Cell key={`cell-${index}`} fill={entry.type === 'Profit' ? "#82ca9d" : "#ff6c6c"} \//;"	M	class:AnonymousClassf496e3fd0101
+code	index.css	/^code {$/;"	s
+color	components/TopBanner.js	/^    color: '#FFFFFF',$/;"	p	class:AnonymousClassd24b5f0e0301
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 1', price: 4000, date: '2023-06-28', time: '10:30 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900101
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 10', price: 3150, date: '2023-06-19', time: '05:00 PM', currencyPair: 'BTC\//;"	p	class:AnonymousClass5bd588900a01
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 2', price: 3000, date: '2023-06-27', time: '02:15 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900201
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 3', price: 2000, date: '2023-06-26', time: '09:45 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900301
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 4', price: 2780, date: '2023-06-25', time: '04:20 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900401
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 5', price: 1890, date: '2023-06-24', time: '11:10 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900501
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 6', price: 3450, date: '2023-06-23', time: '01:30 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900601
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 7', price: 2670, date: '2023-06-22', time: '08:55 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900701
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 8', price: 3890, date: '2023-06-21', time: '03:45 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900801
+currencyPair	components/TradesTable.js	/^    { trade: 'Trade 9', price: 2450, date: '2023-06-20', time: '10:20 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900901
+data	components/InvestmentBarChart.js	/^      data={data}$/;"	M	class:data
+data	components/InvestmentBarChart.js	/^const InvestmentBarChart = ({ data }) => {$/;"	M	class:InvestmentBarChart
+data	components/InvestmentPieChart.js	/^          data={data}$/;"	M	class:data
+data	components/InvestmentPieChart.js	/^const InvestmentPieChart = ({ data }) => {$/;"	M	class:InvestmentPieChart
+data	components/ProfitLossBarChart.js	/^      data={data}$/;"	M	class:data
+data	components/ProfitLossBarChart.js	/^const data = [$/;"	C
+data	components/TotalInvestmentBarChart.js	/^      data={data}$/;"	M	class:data
+data	components/TotalInvestmentBarChart.js	/^const TotalInvestmentBarChart = ({ data }) => {$/;"	M	class:TotalInvestmentBarChart
+data	components/TradesAreaChart.js	/^const data = [$/;"	C
+data	components/TradesLineChart.js	/^const data = [$/;"	C
+date	components/TradesAreaChart.js	/^  { date: '2023-06-01', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730101
+date	components/TradesAreaChart.js	/^  { date: '2023-06-02', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730201
+date	components/TradesAreaChart.js	/^  { date: '2023-06-03', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730301
+date	components/TradesAreaChart.js	/^  { date: '2023-06-04', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730401
+date	components/TradesAreaChart.js	/^  { date: '2023-06-05', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730501
+date	components/TradesAreaChart.js	/^  { date: '2023-06-06', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730601
+date	components/TradesAreaChart.js	/^  { date: '2023-06-07', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730701
+date	components/TradesAreaChart.js	/^  { date: '2023-06-08', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730801
+date	components/TradesAreaChart.js	/^  { date: '2023-06-09', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730901
+date	components/TradesAreaChart.js	/^  { date: '2023-06-10', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730a01
+date	components/TradesTable.js	/^    { trade: 'Trade 1', price: 4000, date: '2023-06-28', time: '10:30 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900101
+date	components/TradesTable.js	/^    { trade: 'Trade 10', price: 3150, date: '2023-06-19', time: '05:00 PM', currencyPair: 'BTC\//;"	p	class:AnonymousClass5bd588900a01
+date	components/TradesTable.js	/^    { trade: 'Trade 2', price: 3000, date: '2023-06-27', time: '02:15 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900201
+date	components/TradesTable.js	/^    { trade: 'Trade 3', price: 2000, date: '2023-06-26', time: '09:45 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900301
+date	components/TradesTable.js	/^    { trade: 'Trade 4', price: 2780, date: '2023-06-25', time: '04:20 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900401
+date	components/TradesTable.js	/^    { trade: 'Trade 5', price: 1890, date: '2023-06-24', time: '11:10 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900501
+date	components/TradesTable.js	/^    { trade: 'Trade 6', price: 3450, date: '2023-06-23', time: '01:30 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900601
+date	components/TradesTable.js	/^    { trade: 'Trade 7', price: 2670, date: '2023-06-22', time: '08:55 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900701
+date	components/TradesTable.js	/^    { trade: 'Trade 8', price: 3890, date: '2023-06-21', time: '03:45 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900801
+date	components/TradesTable.js	/^    { trade: 'Trade 9', price: 2450, date: '2023-06-20', time: '10:20 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900901
+entry	components/TotalInvestmentBarChart.js	/^            <Cell key={`cell-${index}`} fill={entry.type === 'Profit' ? "#82ca9d" : "#ff6c6c"} \//;"	M	class:AnonymousClassf496e3fd0201
+false	components/InvestmentPieChart.js	/^          labelLine={false}$/;"	M	class:labelLine
+filteredData	components/PortfolioComponent.js	/^        {selectedInvestment ? <InvestmentBarChart data={filteredData} \/> : null}$/;"	M	class:PortfolioComponent.selectedInvestment
+financialData	components/BotAttributeComponent.js	/^                      {financialData.map((key, i) => ($/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711001
+flexGrow	App.js	/^    flexGrow: 1,$/;"	p	class:AnonymousClassa7a74a510201
+flexShrink	components/Navbar.js	/^  flexShrink: 0,$/;"	p	class:AnonymousClass1414345f0101
+fontFamily	App.js	/^        fontFamily: 'Roboto',$/;"	p	class:AnonymousClassa7a74a510101.typography
+getCLS	reportWebVitals.js	/^    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {$/;"	M	class:AnonymousClass72080abd0101
+handleBotSelection	components/BotsComponent.js	/^        <BotListComponent onSelectBot={handleBotSelection} \/>$/;"	M	class:AnonymousClass2e812bf00201
+height	components/Navbar.js	/^  height: 'calc(100% - 64px)',$/;"	p	class:AnonymousClass1414345f0201
+i	components/BotAttributeComponent.js	/^                        <Typography variant="body2" component="p" key={i} style={{ marginBottom:/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711001.AnonymousClassbbd895711101
+i	components/BotAttributeComponent.js	/^                        <Typography variant="body2" component="p" key={i} style={{ marginBottom:/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711601.AnonymousClassbbd895711701
+i	components/BotAttributeComponent.js	/^                      <Typography variant="body2" component="p" key={i} style={{ marginBottom: '/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710601.AnonymousClassbbd895710701
+key	components/BotAttributeComponent.js	/^                              {key}: {attributes[key]} <InfoIcon fontSize="extra small" \/> $/;"	M	class:BotAttributeComponent.AnonymousClassbbd895710601.AnonymousClassbbd895710901.AnonymousClassbbd895710a01
+key	components/BotAttributeComponent.js	/^                          {key}: {attributes[key]}$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711001.AnonymousClassbbd895711301
+key	components/BotAttributeComponent.js	/^                          {key}: {attributes[key]}$/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711601.AnonymousClassbbd895711901
+key	components/BotAttributeComponent.js	/^                        {key === 'Strategy' ? ($/;"	p	class:BotAttributeComponent.AnonymousClassbbd895710601.AnonymousClassbbd895710901
+linkElement	App.test.js	/^  const linkElement = screen.getByText(\/learn react\/i);$/;"	C
+main	App.js	/^            main: '#003B73',$/;"	p	class:AnonymousClassa7a74a510101.palette.primary
+main	App.js	/^            main: '#FF5700',$/;"	p	class:AnonymousClassa7a74a510101.palette.secondary
+marginLeft	App.js	/^    marginLeft: '240px',$/;"	p	class:AnonymousClassa7a74a510201
+marginTop	components/Navbar.js	/^  marginTop: '64px',$/;"	p	class:AnonymousClass1414345f0101
+marginTop	components/Navbar.js	/^  marginTop: '64px',$/;"	p	class:AnonymousClass1414345f0201
+name	components/ProfitLossBarChart.js	/^  { name: 'April', uv: 4000 },$/;"	p	class:AnonymousClass6d4ff8610401
+name	components/ProfitLossBarChart.js	/^  { name: 'August', uv: 6000 },$/;"	p	class:AnonymousClass6d4ff8610801
+name	components/ProfitLossBarChart.js	/^  { name: 'December', uv: 8000 },$/;"	p	class:AnonymousClass6d4ff8610c01
+name	components/ProfitLossBarChart.js	/^  { name: 'February', uv: 3000 },$/;"	p	class:AnonymousClass6d4ff8610201
+name	components/ProfitLossBarChart.js	/^  { name: 'January', uv: 4000 },$/;"	p	class:AnonymousClass6d4ff8610101
+name	components/ProfitLossBarChart.js	/^  { name: 'July', uv: 5500 },$/;"	p	class:AnonymousClass6d4ff8610701
+name	components/ProfitLossBarChart.js	/^  { name: 'June', uv: 5000 },$/;"	p	class:AnonymousClass6d4ff8610601
+name	components/ProfitLossBarChart.js	/^  { name: 'March', uv: 3500 },$/;"	p	class:AnonymousClass6d4ff8610301
+name	components/ProfitLossBarChart.js	/^  { name: 'May', uv: 4500 },$/;"	p	class:AnonymousClass6d4ff8610501
+name	components/ProfitLossBarChart.js	/^  { name: 'November', uv: 7500 },$/;"	p	class:AnonymousClass6d4ff8610b01
+name	components/ProfitLossBarChart.js	/^  { name: 'October', uv: 7000 },$/;"	p	class:AnonymousClass6d4ff8610a01
+name	components/ProfitLossBarChart.js	/^  { name: 'September', uv: 6500 },$/;"	p	class:AnonymousClass6d4ff8610901
+name	components/TradesLineChart.js	/^  { name: 'Trade 1', uv: 4000 },$/;"	p	class:AnonymousClass850d2b820101
+name	components/TradesLineChart.js	/^  { name: 'Trade 10', uv: 3150 },$/;"	p	class:AnonymousClass850d2b820a01
+name	components/TradesLineChart.js	/^  { name: 'Trade 2', uv: 3000 },$/;"	p	class:AnonymousClass850d2b820201
+name	components/TradesLineChart.js	/^  { name: 'Trade 3', uv: 2000 },$/;"	p	class:AnonymousClass850d2b820301
+name	components/TradesLineChart.js	/^  { name: 'Trade 4', uv: 2780 },$/;"	p	class:AnonymousClass850d2b820401
+name	components/TradesLineChart.js	/^  { name: 'Trade 5', uv: 1890 },$/;"	p	class:AnonymousClass850d2b820501
+name	components/TradesLineChart.js	/^  { name: 'Trade 6', uv: 3450 },$/;"	p	class:AnonymousClass850d2b820601
+name	components/TradesLineChart.js	/^  { name: 'Trade 7', uv: 2670 },$/;"	p	class:AnonymousClass850d2b820701
+name	components/TradesLineChart.js	/^  { name: 'Trade 8', uv: 3890 },$/;"	p	class:AnonymousClass850d2b820801
+name	components/TradesLineChart.js	/^  { name: 'Trade 9', uv: 2450 },$/;"	p	class:AnonymousClass850d2b820901
+name	data/mockData.js	/^      name: 'April',$/;"	p	class:AnonymousClassfb41295d1001
+name	data/mockData.js	/^      name: 'Aug',$/;"	p	class:AnonymousClassfb41295d1401
+name	data/mockData.js	/^      name: 'Dec',$/;"	p	class:AnonymousClassfb41295d1801
+name	data/mockData.js	/^      name: 'Feb',$/;"	p	class:AnonymousClassfb41295d0e01
+name	data/mockData.js	/^      name: 'Jan',$/;"	p	class:AnonymousClassfb41295d0d01
+name	data/mockData.js	/^      name: 'July',$/;"	p	class:AnonymousClassfb41295d1301
+name	data/mockData.js	/^      name: 'June',$/;"	p	class:AnonymousClassfb41295d1201
+name	data/mockData.js	/^      name: 'Mar',$/;"	p	class:AnonymousClassfb41295d0f01
+name	data/mockData.js	/^      name: 'May',$/;"	p	class:AnonymousClassfb41295d1101
+name	data/mockData.js	/^      name: 'Nov',$/;"	p	class:AnonymousClassfb41295d1701
+name	data/mockData.js	/^      name: 'Oct',$/;"	p	class:AnonymousClassfb41295d1601
+name	data/mockData.js	/^      name: 'Sept',$/;"	p	class:AnonymousClassfb41295d1501
+name	data/mockData.js	/^    {name: 'Feb', type: 'ADA', Profit: 4500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0b01
+name	data/mockData.js	/^    {name: 'Feb', type: 'BTC', Profit: 3000, Loss: 1398},$/;"	p	class:AnonymousClassfb41295d0501
+name	data/mockData.js	/^    {name: 'Feb', type: 'ETH', Profit: 2500, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0801
+name	data/mockData.js	/^    {name: 'Jan', type: 'ADA', Profit: 5000, Loss: 2500},$/;"	p	class:AnonymousClassfb41295d0a01
+name	data/mockData.js	/^    {name: 'Jan', type: 'BTC', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0401
+name	data/mockData.js	/^    {name: 'Jan', type: 'ETH', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0701
+name	data/mockData.js	/^    {name: 'Mar', type: 'ADA', Profit: 4000, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0c01
+name	data/mockData.js	/^    {name: 'Mar', type: 'BTC', Profit: 2000, Loss: 9800},$/;"	p	class:AnonymousClassfb41295d0601
+name	data/mockData.js	/^    {name: 'Mar', type: 'ETH', Profit: 3500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0901
+name	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	p	class:AnonymousClassfb41295d0101
+name	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	p	class:AnonymousClassfb41295d0201
+name	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	p	class:AnonymousClassfb41295d0301
+ns80309b940101	logo.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 841.9 595.3"><g fill="#61DAFB"><path d=/;"	n	uri:http://www.w3.org/2000/svg
+padding	App.js	/^    padding: '20px',$/;"	p	class:AnonymousClassa7a74a510201
+palette	App.js	/^    palette: {$/;"	c	class:AnonymousClassa7a74a510101
+pieData	components/PortfolioComponent.js	/^  pieData: PropTypes.arrayOf(PropTypes.object),$/;"	p	class:PortfolioComponent.propTypes
+pieData	components/PortfolioComponent.js	/^function PortfolioComponent({ pieData, barData, totalBarData }) {$/;"	M	class:AnonymousClassf062dc360101
+pieData	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	C
+pieData	views/Portfolio.js	/^            pieData={pieData} $/;"	M	class:PortfolioView.pieData
+price	components/TradesTable.js	/^    { trade: 'Trade 1', price: 4000, date: '2023-06-28', time: '10:30 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900101
+price	components/TradesTable.js	/^    { trade: 'Trade 10', price: 3150, date: '2023-06-19', time: '05:00 PM', currencyPair: 'BTC\//;"	p	class:AnonymousClass5bd588900a01
+price	components/TradesTable.js	/^    { trade: 'Trade 2', price: 3000, date: '2023-06-27', time: '02:15 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900201
+price	components/TradesTable.js	/^    { trade: 'Trade 3', price: 2000, date: '2023-06-26', time: '09:45 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900301
+price	components/TradesTable.js	/^    { trade: 'Trade 4', price: 2780, date: '2023-06-25', time: '04:20 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900401
+price	components/TradesTable.js	/^    { trade: 'Trade 5', price: 1890, date: '2023-06-24', time: '11:10 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900501
+price	components/TradesTable.js	/^    { trade: 'Trade 6', price: 3450, date: '2023-06-23', time: '01:30 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900601
+price	components/TradesTable.js	/^    { trade: 'Trade 7', price: 2670, date: '2023-06-22', time: '08:55 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900701
+price	components/TradesTable.js	/^    { trade: 'Trade 8', price: 3890, date: '2023-06-21', time: '03:45 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900801
+price	components/TradesTable.js	/^    { trade: 'Trade 9', price: 2450, date: '2023-06-20', time: '10:20 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900901
+primary	App.js	/^        primary: {$/;"	c	class:AnonymousClassa7a74a510101.palette
+propTypes	components/PortfolioComponent.js	/^PortfolioComponent.propTypes = {$/;"	c	class:PortfolioComponent
+randomTrades	components/TradesAreaChart.js	/^const randomTrades = () => Math.floor(Math.random() * 14) + 2;$/;"	C
+reportWebVitals	reportWebVitals.js	/^const reportWebVitals = onPerfEntry => {$/;"	C
+root	index.js	/^const root = ReactDOM.createRoot(document.getElementById('root'));$/;"	C
+row	components/TradesTable.js	/^                {row.trade}$/;"	M	class:AnonymousClass5bd588900d01
+row	components/TradesTable.js	/^              <TableCell align="right">{row.currencyPair}<\/TableCell>$/;"	M	class:AnonymousClass5bd588901101
+row	components/TradesTable.js	/^              <TableCell align="right">{row.date}<\/TableCell>$/;"	M	class:AnonymousClass5bd588900f01
+row	components/TradesTable.js	/^              <TableCell align="right">{row.price}<\/TableCell>$/;"	M	class:AnonymousClass5bd588900e01
+row	components/TradesTable.js	/^              <TableCell align="right">{row.time}<\/TableCell>$/;"	M	class:AnonymousClass5bd588901001
+row	components/TradesTable.js	/^            <TableRow key={row.trade}>$/;"	M	class:AnonymousClass5bd588900c01
+rows	components/TradesTable.js	/^  const rows = [$/;"	C
+secondary	App.js	/^        secondary: {$/;"	c	class:AnonymousClassa7a74a510101.palette
+selectedBot	components/BotListComponent.js	/^          <BotAttributeComponent bot={selectedBot} \/>$/;"	M	class:BotListComponent.AnonymousClassbd9557590a01
+selectedBot	components/BotsComponent.js	/^        {selectedBot ? <BotAttributeComponent bot={selectedBot} \/> : null}$/;"	M	class:selectedBot
+text	components/Navbar.js	/^            <ListItemText primary={text} \/>$/;"	M	class:AnonymousClass1414345f0601
+text	components/Navbar.js	/^          <ListItem button key={text} component={Link} to={`\/${text.toLowerCase()}`}>$/;"	M	class:AnonymousClass1414345f0301
+textDecoration	components/TopBanner.js	/^    textDecoration: 'none',$/;"	p	class:AnonymousClassd24b5f0e0201
+theme	App.js	/^        <ThemeProvider theme={theme}>$/;"	M	class:App.AnonymousClassa7a74a510301
+theme	App.js	/^const theme = createTheme({$/;"	C
+time	components/TradesTable.js	/^    { trade: 'Trade 1', price: 4000, date: '2023-06-28', time: '10:30 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900101
+time	components/TradesTable.js	/^    { trade: 'Trade 10', price: 3150, date: '2023-06-19', time: '05:00 PM', currencyPair: 'BTC\//;"	p	class:AnonymousClass5bd588900a01
+time	components/TradesTable.js	/^    { trade: 'Trade 2', price: 3000, date: '2023-06-27', time: '02:15 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900201
+time	components/TradesTable.js	/^    { trade: 'Trade 3', price: 2000, date: '2023-06-26', time: '09:45 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900301
+time	components/TradesTable.js	/^    { trade: 'Trade 4', price: 2780, date: '2023-06-25', time: '04:20 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900401
+time	components/TradesTable.js	/^    { trade: 'Trade 5', price: 1890, date: '2023-06-24', time: '11:10 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900501
+time	components/TradesTable.js	/^    { trade: 'Trade 6', price: 3450, date: '2023-06-23', time: '01:30 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900601
+time	components/TradesTable.js	/^    { trade: 'Trade 7', price: 2670, date: '2023-06-22', time: '08:55 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900701
+time	components/TradesTable.js	/^    { trade: 'Trade 8', price: 3890, date: '2023-06-21', time: '03:45 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900801
+time	components/TradesTable.js	/^    { trade: 'Trade 9', price: 2450, date: '2023-06-20', time: '10:20 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900901
+toLowerCase()}	components/Navbar.js	/^          <ListItem button key={text} component={Link} to={`\/${text.toLowerCase()}`}>$/;"	M	class:AnonymousClass1414345f0501./${text
+totalBarData	components/PortfolioComponent.js	/^  totalBarData: PropTypes.arrayOf(PropTypes.object),$/;"	p	class:PortfolioComponent.propTypes
+totalBarData	data/mockData.js	/^const totalBarData = [$/;"	C
+totalBarData	views/Portfolio.js	/^            totalBarData={totalBarData} $/;"	M	class:PortfolioView.totalBarData
+trade	components/TradesTable.js	/^    { trade: 'Trade 1', price: 4000, date: '2023-06-28', time: '10:30 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900101
+trade	components/TradesTable.js	/^    { trade: 'Trade 10', price: 3150, date: '2023-06-19', time: '05:00 PM', currencyPair: 'BTC\//;"	p	class:AnonymousClass5bd588900a01
+trade	components/TradesTable.js	/^    { trade: 'Trade 2', price: 3000, date: '2023-06-27', time: '02:15 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900201
+trade	components/TradesTable.js	/^    { trade: 'Trade 3', price: 2000, date: '2023-06-26', time: '09:45 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900301
+trade	components/TradesTable.js	/^    { trade: 'Trade 4', price: 2780, date: '2023-06-25', time: '04:20 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900401
+trade	components/TradesTable.js	/^    { trade: 'Trade 5', price: 1890, date: '2023-06-24', time: '11:10 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900501
+trade	components/TradesTable.js	/^    { trade: 'Trade 6', price: 3450, date: '2023-06-23', time: '01:30 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900601
+trade	components/TradesTable.js	/^    { trade: 'Trade 7', price: 2670, date: '2023-06-22', time: '08:55 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900701
+trade	components/TradesTable.js	/^    { trade: 'Trade 8', price: 3890, date: '2023-06-21', time: '03:45 PM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900801
+trade	components/TradesTable.js	/^    { trade: 'Trade 9', price: 2450, date: '2023-06-20', time: '10:20 AM', currencyPair: 'BTC\/U/;"	p	class:AnonymousClass5bd588900901
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-01', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730101
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-02', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730201
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-03', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730301
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-04', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730401
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-05', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730501
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-06', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730601
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-07', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730701
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-08', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730801
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-09', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730901
+trades	components/TradesAreaChart.js	/^  { date: '2023-06-10', trades: randomTrades() },$/;"	p	class:AnonymousClass2489a9730a01
+tradingData	components/BotAttributeComponent.js	/^                      {tradingData.map((key, i) => ($/;"	M	class:BotAttributeComponent.AnonymousClassbbd895711601
+type	data/mockData.js	/^      type: 'Loss'$/;"	p	class:AnonymousClassfb41295d0e01
+type	data/mockData.js	/^      type: 'Loss'$/;"	p	class:AnonymousClassfb41295d1101
+type	data/mockData.js	/^      type: 'Loss'$/;"	p	class:AnonymousClassfb41295d1401
+type	data/mockData.js	/^      type: 'Loss'$/;"	p	class:AnonymousClassfb41295d1701
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d0d01
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d0f01
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d1001
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d1201
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d1301
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d1501
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d1601
+type	data/mockData.js	/^      type: 'Profit'$/;"	p	class:AnonymousClassfb41295d1801
+type	data/mockData.js	/^    {name: 'Feb', type: 'ADA', Profit: 4500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0b01
+type	data/mockData.js	/^    {name: 'Feb', type: 'BTC', Profit: 3000, Loss: 1398},$/;"	p	class:AnonymousClassfb41295d0501
+type	data/mockData.js	/^    {name: 'Feb', type: 'ETH', Profit: 2500, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0801
+type	data/mockData.js	/^    {name: 'Jan', type: 'ADA', Profit: 5000, Loss: 2500},$/;"	p	class:AnonymousClassfb41295d0a01
+type	data/mockData.js	/^    {name: 'Jan', type: 'BTC', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0401
+type	data/mockData.js	/^    {name: 'Jan', type: 'ETH', Profit: 4000, Loss: 2400},$/;"	p	class:AnonymousClassfb41295d0701
+type	data/mockData.js	/^    {name: 'Mar', type: 'ADA', Profit: 4000, Loss: 1500},$/;"	p	class:AnonymousClassfb41295d0c01
+type	data/mockData.js	/^    {name: 'Mar', type: 'BTC', Profit: 2000, Loss: 9800},$/;"	p	class:AnonymousClassfb41295d0601
+type	data/mockData.js	/^    {name: 'Mar', type: 'ETH', Profit: 3500, Loss: 2000},$/;"	p	class:AnonymousClassfb41295d0901
+typography	App.js	/^    typography: {$/;"	c	class:AnonymousClassa7a74a510101
+uv	components/ProfitLossBarChart.js	/^  { name: 'April', uv: 4000 },$/;"	p	class:AnonymousClass6d4ff8610401
+uv	components/ProfitLossBarChart.js	/^  { name: 'August', uv: 6000 },$/;"	p	class:AnonymousClass6d4ff8610801
+uv	components/ProfitLossBarChart.js	/^  { name: 'December', uv: 8000 },$/;"	p	class:AnonymousClass6d4ff8610c01
+uv	components/ProfitLossBarChart.js	/^  { name: 'February', uv: 3000 },$/;"	p	class:AnonymousClass6d4ff8610201
+uv	components/ProfitLossBarChart.js	/^  { name: 'January', uv: 4000 },$/;"	p	class:AnonymousClass6d4ff8610101
+uv	components/ProfitLossBarChart.js	/^  { name: 'July', uv: 5500 },$/;"	p	class:AnonymousClass6d4ff8610701
+uv	components/ProfitLossBarChart.js	/^  { name: 'June', uv: 5000 },$/;"	p	class:AnonymousClass6d4ff8610601
+uv	components/ProfitLossBarChart.js	/^  { name: 'March', uv: 3500 },$/;"	p	class:AnonymousClass6d4ff8610301
+uv	components/ProfitLossBarChart.js	/^  { name: 'May', uv: 4500 },$/;"	p	class:AnonymousClass6d4ff8610501
+uv	components/ProfitLossBarChart.js	/^  { name: 'November', uv: 7500 },$/;"	p	class:AnonymousClass6d4ff8610b01
+uv	components/ProfitLossBarChart.js	/^  { name: 'October', uv: 7000 },$/;"	p	class:AnonymousClass6d4ff8610a01
+uv	components/ProfitLossBarChart.js	/^  { name: 'September', uv: 6500 },$/;"	p	class:AnonymousClass6d4ff8610901
+uv	components/TradesLineChart.js	/^  { name: 'Trade 1', uv: 4000 },$/;"	p	class:AnonymousClass850d2b820101
+uv	components/TradesLineChart.js	/^  { name: 'Trade 10', uv: 3150 },$/;"	p	class:AnonymousClass850d2b820a01
+uv	components/TradesLineChart.js	/^  { name: 'Trade 2', uv: 3000 },$/;"	p	class:AnonymousClass850d2b820201
+uv	components/TradesLineChart.js	/^  { name: 'Trade 3', uv: 2000 },$/;"	p	class:AnonymousClass850d2b820301
+uv	components/TradesLineChart.js	/^  { name: 'Trade 4', uv: 2780 },$/;"	p	class:AnonymousClass850d2b820401
+uv	components/TradesLineChart.js	/^  { name: 'Trade 5', uv: 1890 },$/;"	p	class:AnonymousClass850d2b820501
+uv	components/TradesLineChart.js	/^  { name: 'Trade 6', uv: 3450 },$/;"	p	class:AnonymousClass850d2b820601
+uv	components/TradesLineChart.js	/^  { name: 'Trade 7', uv: 2670 },$/;"	p	class:AnonymousClass850d2b820701
+uv	components/TradesLineChart.js	/^  { name: 'Trade 8', uv: 3890 },$/;"	p	class:AnonymousClass850d2b820801
+uv	components/TradesLineChart.js	/^  { name: 'Trade 9', uv: 2450 },$/;"	p	class:AnonymousClass850d2b820901
+value	data/mockData.js	/^      value: -1000,$/;"	p	class:AnonymousClassfb41295d0e01
+value	data/mockData.js	/^      value: -1000,$/;"	p	class:AnonymousClassfb41295d1101
+value	data/mockData.js	/^      value: -1000,$/;"	p	class:AnonymousClassfb41295d1401
+value	data/mockData.js	/^      value: -1000,$/;"	p	class:AnonymousClassfb41295d1701
+value	data/mockData.js	/^      value: 2500,$/;"	p	class:AnonymousClassfb41295d0f01
+value	data/mockData.js	/^      value: 2500,$/;"	p	class:AnonymousClassfb41295d1201
+value	data/mockData.js	/^      value: 2500,$/;"	p	class:AnonymousClassfb41295d1501
+value	data/mockData.js	/^      value: 2500,$/;"	p	class:AnonymousClassfb41295d1801
+value	data/mockData.js	/^      value: 6000,$/;"	p	class:AnonymousClassfb41295d0d01
+value	data/mockData.js	/^      value: 6000,$/;"	p	class:AnonymousClassfb41295d1001
+value	data/mockData.js	/^      value: 6000,$/;"	p	class:AnonymousClassfb41295d1301
+value	data/mockData.js	/^      value: 6000,$/;"	p	class:AnonymousClassfb41295d1601
+value	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	p	class:AnonymousClassfb41295d0101
+value	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	p	class:AnonymousClassfb41295d0201
+value	data/mockData.js	/^const pieData = [{name: 'BTC', value: 400}, {name: 'ETH', value: 300}, {name: 'ADA', value: 300}/;"	p	class:AnonymousClassfb41295d0301
+whiteSpace	components/Navbar.js	/^  whiteSpace: 'nowrap',$/;"	p	class:AnonymousClass1414345f0101
+width	components/Navbar.js	/^  width: '160px',$/;"	p	class:AnonymousClass1414345f0101
+width	components/Navbar.js	/^  width: '160px',$/;"	p	class:AnonymousClass1414345f0201

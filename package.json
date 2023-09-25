@@ -1,0 +1,61 @@
+{
+  "name": "cryptopilot",
+  "version": "1.0.0",
+  "description": "a tool to simplify the management of cryptocurrency trading bots with functionalities such as back-testing, portfolio management, and real-time monitoring of trading activities.",
+  "main": "backend\\server.js",
+  "scripts": {
+    "start-node": "cd express-backend && nodemon app.js",
+    "start-flask": "cd flask_backend && python -m app",
+    "start-react": "cd client && npm run start",
+    "dev": "concurrently \"npm run start-node\" \"npm run start-flask\" \"npm run start-react\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:all": "./run_all_tests.sh"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@testing-library/jest-dom": "^6.1.3",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "babel-jest": "^29.6.4",
+    "concurrently": "^8.2.0",
+    "jest": "^29.6.4",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "ccxt": "^4.0.46",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "jest-environment-jsdom": "^29.6.4",
+    "jsonwebtoken": "^9.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.2",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.4",
+    "recharts": "^2.7.2",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6",
+    "zustand": "^4.4.1"
+  }
+}
