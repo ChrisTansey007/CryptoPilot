@@ -27,7 +27,7 @@ Cryptopilot enables investors to:
 - **Portfolio Monitoring**: View and manage your complete crypto assets across multiple exchanges.
 - **Back-testing**: Test potential trading bots using historical data to predict future performance.
 - **Bot Implementation**: Deploy trading bots on various trading pairs across different exchanges.
-- **User Authentication**: Secure login system integrated with Robinhood.
+- **User Authentication**: Secure login system integrated with Robinhood. For more details on setting up 2FA with Robinhood, see our [Two-Factor Authentication Guide](TwoFactorAuthenticationGuide.md).
 - **Exchange Integration**: Manage and monitor different exchange accounts in one place.
 
 ## Technologies & Frameworks
