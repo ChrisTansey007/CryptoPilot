@@ -2,7 +2,10 @@
 
 import pyotp
 import robin_stocks.robinhood as r
-from utils.database_operations import fetch_token_from_db, save_token_to_db
+from flask_backend.utils.database_operations import (
+    fetch_token_from_db,
+    save_token_to_db,
+)
 # flask_backend\utils\database_operations.py
 
 

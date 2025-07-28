@@ -1,10 +1,7 @@
 import pytest
 from flask import Flask
-from ...app import create_app
-from ...models import db
-import sys
-
-sys.path.append('C:\\Users\\theca\\cryptopilot')
+from flask_backend.app import create_app
+from flask_backend.models import db
 
 
 @pytest.fixture

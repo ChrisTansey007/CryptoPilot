@@ -2,12 +2,19 @@
 
 const axios = require("axios");
 
-// Configuration
+// Build service URLs from environment variables so deployments can override
+const FLASK_SERVER_URL = process.env.FLASK_SERVER_URL || "http://localhost:5001";
+
 const config = {
-  ROBINHOOD_BALANCE_URL: "http://localhost:5001/api/robinhood-balance",
-  ROBINHOOD_LAST_TRADE_URL: "http://localhost:5001/api/robinhood-last-trade",
+  ROBINHOOD_BALANCE_URL:
+    process.env.ROBINHOOD_BALANCE_URL ||
+    `${FLASK_SERVER_URL}/api/robinhood-balance`,
+  ROBINHOOD_LAST_TRADE_URL:
+    process.env.ROBINHOOD_LAST_TRADE_URL ||
+    `${FLASK_SERVER_URL}/api/robinhood-last-trade`,
   ROBINHOOD_AUTHENTICATE_URL:
-    "http://localhost:5001/api/authenticate-robinhood",
+    process.env.ROBINHOOD_AUTHENTICATE_URL ||
+    `${FLASK_SERVER_URL}/api/authenticate-robinhood`,
 };
 
 const reAuthenticateWithRobinhood = async (credentials) => {
