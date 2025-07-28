@@ -1,5 +1,7 @@
 // express-backend\services\fetchExchangeCredentials.js
 
+const { ExchangeKeys } = require("../models/models");
+
 async function getExchangeCredentials(exchangeName) {
   const exchange = await ExchangeKeys.findOne({ where: { exchangeName } });
 
@@ -15,3 +17,5 @@ async function getExchangeCredentials(exchangeName) {
 
   return credentials;
 }
+
+module.exports = { getExchangeCredentials };

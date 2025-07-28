@@ -7,32 +7,34 @@ const {
   config,
 } = require("./helpers.js");
 const axios = require("axios");
-const fetchBalance = async (exchangeName) => {
-  console.log(`Fetching balance for ${exchangeName}...`);
+const fetchLastTrade = async (exchangeName) => {
+  console.log(`Fetching last trade for ${exchangeName}...`);
 
   try {
-    const credentials = await getExchangeCredentials(exchangeName);
-
     if (exchangeName === "robinhood") {
-      let response = await axios.get(config["ROBINHOOD_BALANCE_URL"], {
-        params: credentials,
-      });
+      let response = await axios.get(config["ROBINHOOD_LAST_TRADE_URL"]);
 
       if (response.data && response.data.error === "Not logged in") {
+        const credentials = await getExchangeCredentials(exchangeName);
         const isAuthenticated = await reAuthenticateWithRobinhood(credentials);
 
         if (isAuthenticated) {
-          response = await axios.get(config["ROBINHOOD_BALANCE_URL"]);
+          response = await axios.get(config["ROBINHOOD_LAST_TRADE_URL"]);
         } else {
           return "not available";
         }
       }
 
-      return response.data.balance;
+      return response.data;
     } else {
       return "not available";
     }
   } catch (error) {
-    return handleError(error, "Error fetching balance from Flask server:");
+    return handleError(
+      error,
+      `Failed to fetch last trade for ${exchangeName}. Error:`
+    );
   }
 };
+
+module.exports = { fetchLastTrade };

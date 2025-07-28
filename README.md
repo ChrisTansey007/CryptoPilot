@@ -83,8 +83,11 @@ The dashboard offers users a comprehensive view of their trading activities. It 
 The `dataStore.js` acts as a central hub for managing state and feeding data to various components throughout the application. It currently provides mock data for charts, but as development progresses, it will integrate with the backend services to fetch real-time data.
 
 ## API Integrations
-The application has dedicated API handlers for both Flask (`flaskApi.js`) and Express (`expressApi.js`) backends. These handlers manage various operations such as:
+The application has dedicated API handlers for both Flask (`flaskApi.js`) and Express (`expressApi.js`) backends. These handlers manage operations such as:
 - Authenticating with Robinhood.
 - Fetching, deleting, and adding new exchange accounts.
-- Retrieving specific exchange account credentials.# CryptoPilot
-# CryptoPilot
+- Retrieving specific exchange account credentials.
+
+---
+
+For local development, copy `.env.example` to `.env` and adjust values as needed.
