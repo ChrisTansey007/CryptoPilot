@@ -1,6 +1,9 @@
 const Sequelize = require("sequelize");
-const dotenv = require("dotenv").config({
-  path: "C:\\Users\\theca\\cryptopilot\\.env",
+const path = require("path");
+
+// Load environment variables from the project root
+require("dotenv").config({
+  path: path.resolve(__dirname, "../../.env"),
 });
 
 const sequelize = new Sequelize({
