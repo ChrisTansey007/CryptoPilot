@@ -3,10 +3,10 @@
 from flask import Flask
 from flask_cors import CORS
 from flask_migrate import Migrate
-from extensions import jwt, cors as ext_cors
-from routes.robinhood_routes import robinhood_bp
-from routes.other_exchanges_routes import other_exchanges_bp
-from models.models import db
+from flask_backend.extensions import jwt, cors as ext_cors
+from flask_backend.routes.robinhood_routes import robinhood_bp
+from flask_backend.routes.other_exchanges_routes import other_exchanges_bp
+from flask_backend.models.models import db
 
 
 def create_app():

@@ -1,5 +1,5 @@
 from unittest.mock import patch, Mock
-from controllers.robinhood_controller import authenticate_robinhood_controller
+from flask_backend.controllers.robinhood_controller import authenticate_robinhood_controller
 
 
 def test_authenticate_robinhood_controller_success():
@@ -14,7 +14,7 @@ def test_authenticate_robinhood_controller_success():
     }
 
     # Mocking the service call to return True (successful authentication)
-    with patch('controllers.robinhood_controller.authenticate_with_robinhood', return_value=True):
+    with patch('flask_backend.controllers.robinhood_controller.authenticate_with_robinhood', return_value=True):
         response, status_code = authenticate_robinhood_controller(mock_request)
 
     assert status_code == 200
@@ -33,7 +33,7 @@ def test_authenticate_robinhood_controller_failure():
     }
 
     # Mocking the service call to return False (failed authentication)
-    with patch('controllers.robinhood_controller.authenticate_with_robinhood', return_value=False):
+    with patch('flask_backend.controllers.robinhood_controller.authenticate_with_robinhood', return_value=False):
         response, status_code = authenticate_robinhood_controller(mock_request)
 
     assert status_code == 401

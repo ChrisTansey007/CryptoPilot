@@ -48,20 +48,74 @@ def test_exchange_user_creation(test_database):
 
 
 def test_trade_creation_and_relationship(test_database):
-    # Placeholder test for when the Trade model is expanded
-    pass
+    user = ExchangeUser(username="tradeuser",
+                        session_token="tradetoken",
+                        token_expiry=datetime.utcnow())
+    test_database.session.add(user)
+    test_database.session.commit()
+
+    trade = Trade(user_id=user.id,
+                  symbol="BTCUSD",
+                  side="buy",
+                  quantity=1.5,
+                  price=20000.0)
+    test_database.session.add(trade)
+    test_database.session.commit()
+
+    retrieved = Trade.query.filter_by(trade_id=trade.trade_id).first()
+    assert retrieved is not None
+    assert retrieved.user_id == user.id
 
 
 def test_transaction_creation_and_relationship(test_database):
-    # Placeholder test for when the Transaction model is expanded
-    pass
+    user = ExchangeUser(username="transuser",
+                        session_token="transtoken",
+                        token_expiry=datetime.utcnow())
+    test_database.session.add(user)
+    test_database.session.commit()
+
+    txn = Transaction(user_id=user.id,
+                      amount=100.0,
+                      type="withdrawal")
+    test_database.session.add(txn)
+    test_database.session.commit()
+
+    retrieved = Transaction.query.filter_by(transaction_id=txn.transaction_id).first()
+    assert retrieved is not None
+    assert retrieved.user_id == user.id
 
 
 def test_deposit_creation_and_relationship(test_database):
-    # Placeholder test for when the Deposit model is expanded
-    pass
+    user = ExchangeUser(username="depouser",
+                        session_token="depotoken",
+                        token_expiry=datetime.utcnow())
+    test_database.session.add(user)
+    test_database.session.commit()
+
+    dep = Deposit(user_id=user.id,
+                  amount=500.0)
+    test_database.session.add(dep)
+    test_database.session.commit()
+
+    retrieved = Deposit.query.filter_by(deposit_id=dep.deposit_id).first()
+    assert retrieved is not None
+    assert retrieved.user_id == user.id
 
 
 def test_balance_creation_and_relationship(test_database):
-    # Placeholder test for when the Balance model is expanded
-    pass
+    user = ExchangeUser(username="baluser",
+                        session_token="baltoken",
+                        token_expiry=datetime.utcnow())
+    test_database.session.add(user)
+    test_database.session.commit()
+
+    bal = Balance(user_id=user.id,
+                  asset="BTC",
+                  amount=1.23)
+    test_database.session.add(bal)
+    test_database.session.commit()
+
+    retrieved = Balance.query.filter_by(balance_id=bal.balance_id).first()
+    assert retrieved is not None
+    assert retrieved.user_id == user.id
+

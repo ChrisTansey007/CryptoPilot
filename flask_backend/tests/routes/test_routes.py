@@ -2,7 +2,7 @@
 import pytest
 from flask import Flask, jsonify
 from unittest.mock import patch
-from routes.robinhood_routes import robinhood_bp
+from flask_backend.routes.robinhood_routes import robinhood_bp
 from .mocks.robinhood_mocks import (mock_authenticate_robinhood_controller,
                                     mocked_authenticate_success,
                                     mocked_authenticate_failure,
@@ -23,7 +23,7 @@ def test_client(app):
 
 
 def test_authenticate_endpoint(test_client):
-    with patch('routes.robinhood_routes.robinhood_controller.authenticate_robinhood_controller',
+    with patch('flask_backend.routes.robinhood_routes.robinhood_controller.authenticate_robinhood_controller',
                side_effect=mock_authenticate_robinhood_controller):
 
         # Successful authentication scenario
@@ -45,7 +45,7 @@ def test_authenticate_endpoint(test_client):
         assert response.get_json() == mocked_authenticate_failure
 
 
-@patch('routes.robinhood_routes.robinhood_controller.fetch_robinhood_balance_controller',
+@patch('flask_backend.routes.robinhood_routes.robinhood_controller.fetch_robinhood_balance_controller',
        return_value=(mocked_balance_data, 200))
 def test_balance_endpoint(mock_fetch_balance, test_client):
     response = test_client.get('/balance')
@@ -53,7 +53,7 @@ def test_balance_endpoint(mock_fetch_balance, test_client):
     assert response.get_json() == mocked_balance_data
 
 
-@patch('routes.robinhood_routes.robinhood_controller.fetch_robinhood_last_trade_controller',
+@patch('flask_backend.routes.robinhood_routes.robinhood_controller.fetch_robinhood_last_trade_controller',
        return_value=(mocked_last_trade_data, 200))
 def test_last_trade_endpoint(mock_fetch_last_trade, test_client):
     response = test_client.get('/last-trade')

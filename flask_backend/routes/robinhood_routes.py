@@ -1,7 +1,7 @@
 # flask_backend\routes\robinhood_routes.py
 
 from flask import Blueprint, request, jsonify
-from controllers import robinhood_controller
+from flask_backend.controllers import robinhood_controller
 
 robinhood_bp = Blueprint('robinhood', __name__)
 

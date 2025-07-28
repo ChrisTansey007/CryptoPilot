@@ -1,6 +1,6 @@
 # controllers/robinhood_controller.py
 
-from services.authenticate_with_robinhood import authenticate_with_robinhood
+from flask_backend.services.authenticate_with_robinhood import authenticate_with_robinhood
 # flask_backend\utils\database_operations.py
 
 
